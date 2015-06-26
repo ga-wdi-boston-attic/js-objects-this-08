@@ -135,7 +135,9 @@ var matt = new Person("Matt", 28);
 ```
 
 The trick is `new`, a JavaScript keyword. When that last line runs, `new`
+
 1. creates a new empty object (`{}`);
+
     > There's more to this part of the story, but we won't get to it right now.
 
 2. attaches the specified constructor function (say, `Person`) to the empty object as a property;
